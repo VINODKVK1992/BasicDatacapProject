@@ -1,0 +1,147 @@
+<ruleset name="ExportDB" id="8" ver="1">
+	<rule name="Rule: 1040EZ" id="1">
+		<func name="Function1">
+			<a name="ExportOpenConnection" ns="ExportDB">
+				<p type="bInter"/>
+				<p type="bDebug"/>
+				<p type="strParam" v="@APPVAR(*/exportdb:cs)"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: Page_1040ez" id="2">
+		<func name="Function1">
+			<a name="SetTableName" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Data" name="strParam"/>
+			</a>
+			<a name="ExportBatchIDToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="db_BatchID" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TaxpayerName,db_TaxpayerName" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="SpouseName,db_SpouseName" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Address,db_Address" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="City,db_City" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="State,db_State" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="Zip,db_Zip" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TaxpayerSSN,db_TaxpayerSSN" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="SpouseSSN,db_SpouseSSN" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="1TotalWages,db_TotalWages" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="2TaxableInterest,db_TaxableInterest" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="3Unemployment,db_Unemployment" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="4AdjustedGross,db_AdjustedGross" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="5Exemption,db_Exemption" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="6TaxableIncome,db_TaxableIncome" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="7TaxWithheld,db_TaxWithheld" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="8EIC_C,db_EIC_C" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="9TotalPayments,db_TotalPayments" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="10Tax,db_Tax" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="11aRefund,db_Refund" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="12TaxDue,db_TaxDue" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="TaxpayerSignature,db_TaxpayerSignature" name="strParam"/>
+			</a>
+			<a name="ExportFieldToColumn" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="SpouseSignature,db_SpouseSignature" name="strParam"/>
+			</a>
+			<a name="AddRecord" ns="ExportDB">
+				<p name="bInter" type="bInter"/>
+				<p name="bDebug" type="bDebug"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 1040EZ_Close" id="3">
+		<func name="Function1">
+			<a name="ExportCloseConnection" ns="ExportDB">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

@@ -1,0 +1,706 @@
+<?xml-stylesheet type="text/xsl" href="..\..\dco.xsl"?>
+<S>
+	<B type="1040EZ">
+		<V n="ID">0</V>
+		<V n="TYPE">Batch</V>
+		<V n="STATUS">0</V>
+		<V n="PRIORITY">5</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;1&quot; rs=&quot;1&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;3&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;8&quot; /&gt;&lt;/in&gt;&lt;out&gt;&lt;r id=&quot;3&quot; rs=&quot;8&quot; /&gt;&lt;/out&gt;</V>
+		<D type="Document" pos="0" min="0" max="0"/>
+		<P type="Other" pos="0" min="0" max="0"/>
+	</B>
+	<D type="Document">
+		<V n="ID">0</V>
+		<V n="TYPE">Document</V>
+		<V n="STATUS">0</V>
+		<V n="DOC DATA">0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+		<P type="DocumentSeparator" pos="1" min="0" max="1"/>
+		<P type="Page_1040ez" pos="2" min="1" max="1"/>
+		<P type="PageSeparator" pos="0" min="0" max="1"/>
+		<P type="Attachment" pos="0" min="0" max="0"/>
+	</D>
+	<P type="Page_1040ez">
+		<V n="ID">0</V>
+		<V n="TYPE">Page</V>
+		<V n="STATUS">0</V>
+		<V n="IMAGEFILE"></V>
+		<V n="PAGEFILE"></V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;1&quot; rs=&quot;4&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;7&quot; /&gt;&lt;r id=&quot;2&quot; rs=&quot;8&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;10&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<F type="Anchor1" pos="0" min="0" max="0"/>
+		<F type="Anchor2" pos="0" min="0" max="0"/>
+		<F type="TaxpayerName" pos="0" min="0" max="0"/>
+		<F type="Address" pos="0" min="0" max="0"/>
+		<F type="City" pos="0" min="0" max="0"/>
+		<F type="State" pos="0" min="0" max="0"/>
+		<F type="Zip" pos="0" min="0" max="0"/>
+		<F type="SpouseName" pos="0" min="0" max="0"/>
+		<F type="TaxpayerSSN" pos="0" min="0" max="0"/>
+		<F type="SpouseSSN" pos="0" min="0" max="0"/>
+		<F type="TaxpayerElectionFund" pos="0" min="0" max="0"/>
+		<F type="SpouseElectionFund" pos="0" min="0" max="0"/>
+		<F type="1TotalWages" pos="0" min="0" max="0"/>
+		<F type="2TaxableInterest" pos="0" min="0" max="0"/>
+		<F type="3Unemployment" pos="0" min="0" max="0"/>
+		<F type="4AdjustedGross" pos="0" min="0" max="0"/>
+		<F type="5ParentClaimYES" pos="0" min="0" max="0"/>
+		<F type="5ParentClaimNO" pos="0" min="0" max="0"/>
+		<F type="5Exemption" pos="0" min="0" max="0"/>
+		<F type="6TaxableIncome" pos="0" min="0" max="0"/>
+		<F type="7TaxWithheld" pos="0" min="0" max="0"/>
+		<F type="8EICType" pos="0" min="0" max="0"/>
+		<F type="8EIC_C" pos="0" min="0" max="0"/>
+		<F type="9TotalPayments" pos="0" min="0" max="0"/>
+		<F type="10Tax" pos="0" min="0" max="0"/>
+		<F type="11aRefund" pos="0" min="0" max="0"/>
+		<F type="11bRoutingNumber" pos="0" min="0" max="0"/>
+		<F type="11cAccountType" pos="0" min="0" max="0"/>
+		<F type="11dAccountNumber" pos="0" min="0" max="0"/>
+		<F type="12TaxDue" pos="0" min="0" max="0"/>
+		<F type="TaxpayerSignature" pos="0" min="0" max="0"/>
+		<F type="SpouseSignature" pos="0" min="0" max="0"/>
+		<F type="AddressSnip" pos="0" min="0" max="0"/>
+	</P>
+	<P type="Attachment">
+		<V n="ID">0</V>
+		<V n="TYPE">Page</V>
+		<V n="STATUS">0</V>
+		<V n="IMAGEFILE"></V>
+		<V n="DATAFILE"></V>
+		<V n="TEMPLATE IMAGE"></V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</P>
+	<P type="DocumentSeparator">
+		<V n="ID">0</V>
+		<V n="TYPE">Page</V>
+		<V n="STATUS">0</V>
+		<V n="IMAGEFILE"></V>
+		<V n="DATAFILE"></V>
+		<V n="TEMPLATE IMAGE"></V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</P>
+	<P type="Other">
+		<V n="ID">0</V>
+		<V n="TYPE">Page</V>
+		<V n="STATUS">0</V>
+		<V n="IMAGEFILE"></V>
+		<V n="DATAFILE"></V>
+		<V n="TEMPLATE IMAGE"></V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;1&quot; rs=&quot;2&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;11&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;9&quot; /&gt;&lt;r id=&quot;1&quot; rs=&quot;12&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+	</P>
+	<P type="PageSeparator">
+		<V n="ID">0</V>
+		<V n="TYPE">Page</V>
+		<V n="STATUS">0</V>
+		<V n="IMAGEFILE"></V>
+		<V n="DATAFILE"></V>
+		<V n="TEMPLATE IMAGE"></V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</P>
+	<F type="TaxpayerName">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;1&quot; rs=&quot;6&quot; /&gt;&lt;r id=&quot;2&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="SpouseName">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;6&quot; rs=&quot;6&quot; /&gt;&lt;r id=&quot;7&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="Address">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;2&quot; rs=&quot;6&quot; /&gt;&lt;r id=&quot;3&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="City">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;3&quot; rs=&quot;6&quot; /&gt;&lt;r id=&quot;4&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="State">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;4&quot; rs=&quot;6&quot; /&gt;&lt;r id=&quot;5&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="Zip">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;5&quot; rs=&quot;6&quot; /&gt;&lt;r id=&quot;6&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="TaxpayerSSN">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1079,263,1592,330</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;1&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;7&quot; rs=&quot;6&quot; /&gt;&lt;r id=&quot;8&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="SpouseSSN">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1085,385,1618,458</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;2&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;9&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="1TotalWages">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1122,575,1653,669</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;3&quot; rs=&quot;5&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="2TaxableInterest">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1221,677,1653,752</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;4&quot; rs=&quot;5&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="3Unemployment">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1136,761,1656,837</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;5&quot; rs=&quot;5&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="4AdjustedGross">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1108,853,1659,926</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;6&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;10&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="5ParentClaimYES">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="DATATYPE">6</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">362,997,429,1046</V>
+		<V n="s_fg">4</V>
+		<V n="s_ml">5</V>
+		<V n="RecogType">4</V>
+		<V n="c_sr">1</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;4&quot; rs=&quot;4&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="DICT">YesNo</V>
+		<V n="blank">No</V>
+		<F type="5ParentClaimYES_OMR1" pos="0" min="0" max="0"/>
+	</F>
+	<F type="5Exemption">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1110,946,1655,1025</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;7&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;11&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="6TaxableIncome">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1104,1046,1655,1121</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;8&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;12&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="7TaxWithheld">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1100,1135,1657,1210</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;9&quot; rs=&quot;5&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="8EICType">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="8EIC_C">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;10&quot; rs=&quot;5&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="9TotalPayments">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1106,1313,1657,1394</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;11&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;13&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="10Tax">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1104,1412,1657,1483</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;12&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;14&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="11aRefund">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1104,1497,1659,1570</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;13&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;15&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="11bRoutingNumber">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="11cAccountType">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="11dAccountNumber">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+		<V n="y_tt">0</V>
+	</F>
+	<F type="12TaxDue">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1093,1770,1677,1847</V>
+		<V n="c_sx">NUMERICAL</V>
+		<V n="c_cs">0-9</V>
+		<V n="c_lc">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;14&quot; rs=&quot;5&quot; /&gt;&lt;r id=&quot;16&quot; rs=&quot;7&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="TaxpayerSignature">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="DATATYPE">6</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">293,1952,674,1987</V>
+		<V n="c_sr">1</V>
+		<V n="s_fg">4</V>
+		<V n="s_ml">5</V>
+		<V n="RecogType">4</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;2&quot; rs=&quot;4&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="DICT">YesNo</V>
+		<V n="blank">No</V>
+		<F type="TaxpayerSignature_OMR1" pos="0" min="0" max="0"/>
+	</F>
+	<F type="SpouseSignature">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="DATATYPE">6</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">702,1948,1006,1985</V>
+		<V n="c_sr">1</V>
+		<V n="s_fg">4</V>
+		<V n="s_ml">5</V>
+		<V n="RecogType">4</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;3&quot; rs=&quot;4&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="DICT">YesNo</V>
+		<V n="blank">No</V>
+		<F type="SpouseSignature_OMR1" pos="0" min="0" max="0"/>
+	</F>
+	<F type="5ParentClaimNO">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="DATATYPE">6</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">648,997,737,1048</V>
+		<V n="s_fg">4</V>
+		<V n="s_ml">5</V>
+		<V n="c_sr">1</V>
+		<V n="RecogType">4</V>
+		<V n="rules">&lt;in&gt;&lt;r id=&quot;5&quot; rs=&quot;4&quot; /&gt;&lt;/in&gt;&lt;out /&gt;</V>
+		<V n="DICT">YesNo</V>
+		<V n="blank">No</V>
+		<F type="5ParentClaimNO_OMR1" pos="0" min="0" max="0"/>
+	</F>
+	<F type="AddressSnip">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">281,216,1069,510</V>
+		<V n="c_sr">1</V>
+		<V n="c_hn"></V>
+		<V n="c_mn"></V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+		<V n="y_tt">16</V>
+	</F>
+	<F type="5ParentClaimYES_OMR1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">369,995,429,1046</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="5ParentClaimNO_OMR1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">648,995,738,1049</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="TaxpayerSignature_OMR1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">302,1957,691,1988</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="SpouseSignature_OMR1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">0</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">715,1954,1000,1988</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="TaxpayerElectionFund">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="c_sr">1</V>
+		<V n="s_fg">4</V>
+		<V n="s_ml">5</V>
+		<V n="RecogType">4</V>
+		<V n="DICT">YesNo</V>
+		<V n="Pos1011">1104,477,1346,558</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+		<V n="blank">No</V>
+		<F type="TaxpayerElectionFund_OMR1" pos="0" min="0" max="0"/>
+		<F type="TaxpayerElectionFund_OMR2" pos="0" min="0" max="0"/>
+	</F>
+	<F type="SpouseElectionFund">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="RecogType">4</V>
+		<V n="c_sr">1</V>
+		<V n="s_fg">4</V>
+		<V n="s_ml">5</V>
+		<V n="DICT">YesNo</V>
+		<V n="Pos1011">1360,474,1622,558</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+		<V n="blank">No</V>
+		<F type="SpouseElectionFund_OMR1" pos="0" min="0" max="0"/>
+		<F type="SpouseElectionFund_OMR2" pos="0" min="0" max="0"/>
+	</F>
+	<F type="TaxpayerElectionFund_OMR1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1111,487,1205,561</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="TaxpayerElectionFund_OMR2">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1235,487,1336,561</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="SpouseElectionFund_OMR1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1360,477,1481,565</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="SpouseElectionFund_OMR2">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1501,481,1612,565</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="Anchor1">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">139,170,284,200</V>
+		<V n="PatternMatch">1</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<F type="Anchor2">
+		<V n="ID">0</V>
+		<V n="TYPE">Field</V>
+		<V n="STATUS">-1</V>
+		<V n="POSITION">0,0,0,0</V>
+		<V n="MIN_TYPES">0</V>
+		<V n="MAX_TYPES">0</V>
+		<V n="ReqConf">8</V>
+		<V n="Pos1011">1103,673,1197,756</V>
+		<V n="PatternMatch">1</V>
+		<V n="rules">&lt;in /&gt;&lt;out /&gt;</V>
+	</F>
+	<DICT n="YesNo">
+		<W v="1">Yes</W>
+		<W v="0">No</W>
+	</DICT>
+</S>

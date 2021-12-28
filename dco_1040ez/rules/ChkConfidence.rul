@@ -1,0 +1,16 @@
+<ruleset name="ChkConfidence" id="10" ver="1">
+	<rule name="Rule: Page_1040ez" id="1">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ApplicationObjects.Actions" name="CheckDCOStatus" qi="">
+				<p name="ExpectedStatus" v="1"/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a ns="com:Datacap.Libraries.ApplicationObjects.Actions" name="CheckFieldConfidence">
+				<p name="MinimumConfidence" v="8"/>
+				<p name="NewPageStatus" v="1"/>
+				<p name="PageStatusToCheck" v=""/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

@@ -1,0 +1,16 @@
+<ruleset id="12" name="ImageFix" ver="2" modder="admin.2" qi="" dt="11/05/10.208  12:52:12.208 " src_ver="1">
+	<rule name="Rule : Other" id="1" qi="">
+		<func name="Function1">
+			<a name="LoadSettings" ns="ImageFix">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPPATH(imagefix)" name="sFilePath"/>
+			</a>
+			<a name="ImageEnhance" ns="ImageFix">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v=".tio" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

@@ -1,0 +1,209 @@
+<ruleset name="Clean" id="5" ver="6" modder="admin.1" dt="01/23/12 08:47:11.935 " src_ver="5">
+	<rule name="Rule: TaxpayerSSN" id="1">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: SpouseSSN" id="2" qi="">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 1TotalWages" id="3">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 2TaxableInterest" id="4">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@EMPTY"/>
+				<p name="object2" v="@F"/>
+			</a>
+			<a ns="rrunner" name="rrSet">
+				<p name="varSource" v="0"/>
+				<p name="varTarget" v="@X"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 3Unemployment" id="5">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@EMPTY"/>
+				<p name="object2" v="@F"/>
+			</a>
+			<a ns="rrunner" name="rrSet">
+				<p name="varSource" v="0"/>
+				<p name="varTarget" v="@X"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 4AdjustedGross" id="6">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 5Exemption" id="7">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@EMPTY"/>
+				<p name="object2" v="@F"/>
+			</a>
+			<a ns="rrunner" name="rrSet">
+				<p name="varSource" v="0"/>
+				<p name="varTarget" v="@X"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 6TaxableIncome" id="8">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 7TaxWithheld" id="9">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 8EIC_C" id="10">
+		<func name="Function1">
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@EMPTY"/>
+				<p name="object2" v="@F"/>
+			</a>
+			<a ns="rrunner" name="rrSet">
+				<p name="varSource" v="0"/>
+				<p name="varTarget" v="@X"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 9TotalPayments" id="11">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 10Tax" id="12">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 11aRefund" id="13">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('9TotalPayments' &gt; '10Tax')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('9TotalPayments' - '10Tax' = '11aRefund')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@EMPTY"/>
+				<p name="object2" v="@F"/>
+			</a>
+			<a ns="rrunner" name="rrSet">
+				<p name="varSource" v="0"/>
+				<p name="varTarget" v="@X"/>
+			</a>
+		</func>
+		<func name="Function3">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsValueExactMatch">
+				<p name="Target" type="string" v="@F"/>
+				<p name="Value" type="string" v="0"/>
+				<p name="CaseSensitive" type="string" v="False"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 12TaxDue" id="14">
+		<func name="Function1" qi="">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="DeleteAllCharactersSelected" qi="">
+				<p name="CharactersToDelete" type="string" v=" "/>
+				<p name="StartIndex" type="string" v="1"/>
+				<p name="Count" type="string" v="*"/>
+			</a>
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('10Tax' &gt; '9TotalPayments')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('10Tax' - '9TotalPayments' = '12TaxDue')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@EMPTY"/>
+				<p name="object2" v="@F"/>
+			</a>
+			<a ns="rrunner" name="rrSet" qi="">
+				<p name="varSource" v="0"/>
+				<p name="varTarget" v="@X"/>
+			</a>
+		</func>
+		<func name="Function3">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsValueExactMatch">
+				<p name="Target" type="string" v="@F"/>
+				<p name="Value" type="string" v="0"/>
+				<p name="CaseSensitive" type="string" v="False"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

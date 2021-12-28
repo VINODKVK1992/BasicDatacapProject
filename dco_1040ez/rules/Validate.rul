@@ -1,0 +1,237 @@
+<ruleset name="Validate" id="7" ver="4" modder="admin.1" dt="01/23/12 08:42:23.29 " src_ver="3" qi="">
+	<rule name="Rule: Page_1040ez" id="1">
+		<func name="Function1">
+			<a name="Status_Preserve_OFF" ns="rrunner">
+				<p name="bInter" type="bInter"/>
+				<p name="bDebug" type="bDebug"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: TaxpayerName" id="2">
+		<func name="Function1">
+			<a name="OpenConnection" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPVAR(*/lookupdb:cs)" name="strParam"/>
+			</a>
+			<a name="ExecuteSQL" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="&quot;SELECT Name From Taxpayer Where Name = '%s' And SSN = '%s';&quot;,TaxpayerName,TaxpayerSSN" name="sStringIn"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: Address" id="3">
+		<func name="Function1">
+			<a name="ExecuteSQL" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="&quot;SELECT Address From Taxpayer Where Address = '%s' And SSN = '%s';&quot;,Address,TaxpayerSSN" name="sStringIn"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: City" id="4">
+		<func name="Function1">
+			<a name="ExecuteSQL" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="&quot;SELECT City From Taxpayer Where City = '%s' And SSN = '%s';&quot;,City,TaxpayerSSN" name="sStringIn"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: State" id="5">
+		<func name="Function1">
+			<a name="ExecuteSQL" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="&quot;SELECT State From Taxpayer Where State = '%s' And SSN = '%s';&quot;,State,TaxpayerSSN" name="sStringIn"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: Zip " id="6">
+		<func name="Function1">
+			<a name="ExecuteSQL" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="&quot;SELECT Zip From Taxpayer Where Zip = '%s' And SSN = '%s';&quot;,Zip,TaxpayerSSN" name="sStringIn"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: SpouseName" id="7">
+		<func name="Function1">
+			<a name="ExecuteSQL" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="&quot;SELECT Name From Taxpayer Where Name = '%s' And SSN = '%s';&quot;,SpouseName,SpouseSSN" name="sStringIn"/>
+			</a>
+			<a name="CloseConnection" ns="Lookup">
+				<p name="bInter" type="bInter"/>
+				<p name="bDebug" type="bDebug"/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a name="CloseConnection" ns="Lookup">
+				<p name="bInter" type="bInter"/>
+				<p name="bDebug" type="bDebug"/>
+			</a>
+			<a ns="rrunner" name="rrCompare" qi="">
+				<p name="object1" v="@EMPTY"/>
+				<p name="object2" v="@P\SpouseSSN"/>
+			</a>
+			<a name="ResetField" ns="Zones.dll" qi="">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: TaxpayerSSN" id="8">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsTextLength" qi="">
+				<p name="Target" type="string" v="@X"/>
+				<p name="Length" type="string" v="9"/>
+				<p name="ComparisonOperator" type="string" v="="/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: SpouseSSN" id="9">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsTextLength">
+				<p name="Target" type="string" v="@X"/>
+				<p name="Length" type="string" v="9"/>
+				<p name="ComparisonOperator" type="string" v="="/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsTextLength">
+				<p name="Target" type="string" v="@X"/>
+				<p name="Length" type="string" v="0"/>
+				<p name="ComparisonOperator" type="string" v="="/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 4AdjustedGross" id="10">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('1TotalWages' + '2TaxableInterest' + '3Unemployment' = '4AdjustedGross')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 5Exemption" id="11">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsValueExactMatch">
+				<p name="Target" type="string" v="@F"/>
+				<p name="Value" type="string" v="720000"/>
+				<p name="CaseSensitive" type="string" v="False"/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsValueExactMatch">
+				<p name="Target" type="string" v="@F"/>
+				<p name="Value" type="string" v="1295000"/>
+				<p name="CaseSensitive" type="string" v="False"/>
+			</a>
+		</func>
+		<func name="Function3">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsValueExactMatch">
+				<p name="Target" type="string" v="@F"/>
+				<p name="Value" type="string" v="0"/>
+				<p name="CaseSensitive" type="string" v="False"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 6TaxableIncome " id="12">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('4AdjustedGross' - '5Exemption' = '6TaxableIncome')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 9TotalPayments" id="13">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('10Tax' &lt; '9TotalPayments')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('9TotalPayments' - '10Tax' = '11aRefund')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('10Tax' - '9TotalPayments' = '12TaxDue')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 10Tax" id="14">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING(10Tax' &lt; '9TotalPayments')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('9TotalPayments' - '10Tax' = '11aRefund')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('10Tax' - '9TotalPayments' = '12TaxDue')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 11aRefund" id="15">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsValueExactMatch">
+				<p name="Target" type="string" v="@F"/>
+				<p name="Value" type="string" v="0"/>
+				<p name="CaseSensitive" type="string" v="False"/>
+			</a>
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('9TotalPayments' &lt; '10Tax')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('9TotalPayments' - '10Tax' = '11aRefund')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 12TaxDue" id="16">
+		<func name="Function1">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="IsValueExactMatch">
+				<p name="Target" type="string" v="@F"/>
+				<p name="Value" type="string" v="0"/>
+				<p name="CaseSensitive" type="string" v="False"/>
+			</a>
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields">
+				<p name="Equation" type="string" v="@STRING('9TotalPayments' &gt; '10Tax')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+		<func name="Function2">
+			<a ns="com:Datacap.Libraries.ValidationsAndTextAdjustments.Actions" name="CalculateFields" qi="">
+				<p name="Equation" type="string" v="@STRING('10Tax' - '9TotalPayments' = '12TaxDue')"/>
+				<p name="DecimalDigits" type="string" v=""/>
+				<p name="PreserveStatus" type="string" v=""/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

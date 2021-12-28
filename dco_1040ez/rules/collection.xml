@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rsapp name="1040ez">
+	<rsc>
+		<ruleset id="1" name="VScan"/>
+		<ruleset id="2" name="Identify"/>
+		<ruleset id="3" name="CreateDocs"/>
+		<ruleset id="4" name="Recognize" depends=""/>
+		<ruleset id="5" name="Clean"/>
+		<ruleset id="6" name="LookUp"/>
+		<ruleset id="7" name="Validate"/>
+		<ruleset id="8" name="ExportDB"/>
+		<ruleset id="10" name="ChkConfidence"/>
+		<ruleset id="11" name="CheckForFixup"/>
+		<ruleset name="AddFingerprint" id="9" depends=""/>
+		<ruleset id="12" name="ImageFix" depends=""/>
+	</rsc>
+	<tps>
+		<tprofile name="Vscan">
+			<ruleset id="1"/>
+		</tprofile>
+		<tprofile name="PageID">
+			<ruleset id="2"/>
+			<ruleset id="11"/>
+		</tprofile>
+		<tprofile name="Profiler">
+			<ruleset id="3"/>
+			<ruleset id="4"/>
+			<ruleset id="5"/>
+			<ruleset id="6"/>
+			<ruleset id="7"/>
+			<ruleset id="10"/>
+		</tprofile>
+		<tprofile name="Verify">
+			<ruleset id="6"/>
+			<ruleset id="7"/>
+		</tprofile>
+		<tprofile name="Export">
+			<ruleset id="8"/>
+		</tprofile>
+		<tprofile name="FingerprintAdd">
+			<ruleset id="9"/>
+		</tprofile>
+		<tprofile name="ImageFix">
+			<ruleset id="12"/>
+		</tprofile>
+	</tps>
+</rsapp>

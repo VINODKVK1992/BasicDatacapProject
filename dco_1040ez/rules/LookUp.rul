@@ -1,0 +1,85 @@
+<ruleset name="LookUp" id="6" ver="1">
+	<rule name="Rule: TaxpayerName" id="1">
+		<func name="Function1">
+			<a name="OpenConnection" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="@APPVAR(*/lookupdb:cs)" name="strParam"/>
+			</a>
+			<a name="ExecuteSQL" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="&quot;SELECT * FROM Taxpayer WHERE SSN='%s';&quot;,TaxpayerSSN" name="sStringIn"/>
+			</a>
+			<a name="PopulateWithResult" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="2,True" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: Address" id="2">
+		<func name="Function1">
+			<a name="PopulateWithResult" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="3,True" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: City" id="3">
+		<func name="Function1">
+			<a name="PopulateWithResult" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="4,True" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: State" id="4">
+		<func name="Function1">
+			<a name="PopulateWithResult" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="5,True" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: Zip" id="5">
+		<func name="Function1">
+			<a name="PopulateWithResult" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="6,True" name="StrParam"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: SpouseName" id="6">
+		<func name="Function1">
+			<a name="ExecuteSQL" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="&quot;SELECT * FROM Taxpayer WHERE SSN='%s';&quot;,SpouseSSN" name="sStringIn"/>
+			</a>
+			<a name="PopulateWithResult" ns="Lookup">
+				<p type="bInter" name="bInter"/>
+				<p type="bDebug" name="bDebug"/>
+				<p type="strParam" v="2,True" name="StrParam"/>
+			</a>
+		</func>
+		<func name="Function2" qi="">
+			<a ns="rrunner" name="rrCompare">
+				<p name="object1" v="@EMPTY"/>
+				<p name="object2" v="@F"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: TaxpayerSSN" id="7">
+		<func name="Function1">
+			<a name="CloseConnection" ns="Lookup">
+				<p name="bInter" type="bInter"/>
+				<p name="bDebug" type="bDebug"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

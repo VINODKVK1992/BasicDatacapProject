@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ruleset name="Recognize" id="4" ver="2" modder="admin.1" dt="03/21/19 13:25:43.428 ">
+	<rule name="Rule: Page_1040ez" id="1">
+		<func name="Function1">
+			<a name="ReadZones" ns="Zones">
+				<p name="bInter" type="bInter"/>
+				<p name="bDebug" type="bDebug"/>
+			</a>
+			<a name="RecognizePageFieldsOCR_A" ns="net:RecognitionOCRA.OCRAActions" qi=""/>
+		</func>
+	</rule>
+	<rule name="Rule: TaxpayerSignature" id="2">
+		<func name="Function1">
+			<a ns="net:SharedRecognitionTools.Actions" name="DetermineOMRThreshold">
+				<p name="Threshold" type="string" qi="" v="7"/>
+				<p name="Background" type="string" qi="" v="0"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: SpouseSignature" id="3">
+		<func name="Function1">
+			<a ns="net:SharedRecognitionTools.Actions" name="DetermineOMRThreshold">
+				<p name="Threshold" type="string" qi="" v="7"/>
+				<p name="Background" type="string" qi="" v="0"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 5ParentClaimYES" id="4">
+		<func name="Function1">
+			<a ns="net:SharedRecognitionTools.Actions" name="DetermineOMRThreshold">
+				<p name="Threshold" type="string" qi="" v="2"/>
+				<p name="Background" type="string" qi="" v="0"/>
+			</a>
+		</func>
+	</rule>
+	<rule name="Rule: 5ParentClaimNO" id="5">
+		<func name="Function1">
+			<a ns="net:SharedRecognitionTools.Actions" name="DetermineOMRThreshold" qi="">
+				<p name="Threshold" type="string" qi="" v="2"/>
+				<p name="Background" type="string" qi="" v="0"/>
+			</a>
+		</func>
+	</rule>
+</ruleset>

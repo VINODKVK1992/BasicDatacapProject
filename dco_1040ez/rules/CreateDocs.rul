@@ -1,0 +1,7 @@
+<ruleset name="CreateDocs" id="3" ver="1">
+	<rule name="Rule: 1040ez" id="1" qi="">
+		<func name="Function1">
+			<a name="CreateDocuments" ns="com:Datacap.Libraries.ApplicationObjects.Actions"/>
+		</func>
+	</rule>
+</ruleset>

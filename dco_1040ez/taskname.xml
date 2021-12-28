@@ -1,0 +1,74 @@
+<?xml-stylesheet type="text/xsl" href="dco.xsl"?>
+<DCO_BAT id="20000001.001">
+	<DCO_VAR name="TYPE">BDOcs</DCO_VAR>
+	<DCO_PAG id="TM000001">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000001.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000002">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000002.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000003">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000003.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000004">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000004.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000005">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000005.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000006">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000006.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000007">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000007.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000008">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000008.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000009">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000009.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000010">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000010.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000011">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000011.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000012">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000012.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000013">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000013.tif</DCO_VAR>
+	</DCO_PAG>
+	<DCO_PAG id="TM000014">
+		<DCO_VAR name="TYPE">Other</DCO_VAR>
+		<DCO_VAR name="STATUS">1</DCO_VAR>
+		<DCO_VAR name="IMAGEFILE">c:\datacap\test1\TM000014.tif</DCO_VAR>
+	</DCO_PAG>
+</DCO_BAT>
