@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App folder", "App folder", "{5EDE6C67-B844-48DF-8A5E-A0B60A3ACBEF}"
+	ProjectSection(SolutionItems) = preProject
+		1040ez.app = 1040ez.app
+		1040ezAdm.mdb = 1040ezAdm.mdb
+		1040ezEng.mdb = 1040ezEng.mdb
+		1040ezExport.mdb = 1040ezExport.mdb
+		1040ezFingerprint.mdb = 1040ezFingerprint.mdb
+		1040ezLook.mdb = 1040ezLook.mdb
+		dco.xsl = dco.xsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "batches", "batches", "{4AD9E59F-AD6B-488B-ABA7-E111FF3E9BC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "export", "export", "{56A34B02-14A6-4F32-8BCA-54FD827A621F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fingerprint", "fingerprint", "{BA717964-225A-4819-9548-2DFBA43FA846}"
+	ProjectSection(SolutionItems) = preProject
+		fingerprint\1011.cco = fingerprint\1011.cco
+		fingerprint\1011.tif = fingerprint\1011.tif
+		fingerprint\555.cco = fingerprint\555.cco
+		fingerprint\555.tif = fingerprint\555.tif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{CD9A54A0-26FA-49E2-9946-137A1B7C2764}"
+	ProjectSection(SolutionItems) = preProject
+		images\1040ez01.tif = images\1040ez01.tif
+		images\1040ez02.tif = images\1040ez02.tif
+		images\1040ez03.tif = images\1040ez03.tif
+		images\1040ez04.tif = images\1040ez04.tif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dco_1040ez", "dco_1040ez", "{DEBDFB0D-2471-48B9-850C-15A4115D08D1}"
+	ProjectSection(SolutionItems) = preProject
+		dco_1040ez\1040ez.xml = dco_1040ez\1040ez.xml
+		dco_1040ez\export.set.xml = dco_1040ez\export.set.xml
+		dco_1040ez\fixup.set.xml = dco_1040ez\fixup.set.xml
+		dco_1040ez\fixupBP.ini = dco_1040ez\fixupBP.ini
+		dco_1040ez\ImageFix.ini = dco_1040ez\ImageFix.ini
+		dco_1040ez\ivscan.set.xml = dco_1040ez\ivscan.set.xml
+		dco_1040ez\pageid web.set.xml = dco_1040ez\pageid web.set.xml
+		dco_1040ez\pageid.set.xml = dco_1040ez\pageid.set.xml
+		dco_1040ez\profiler.set.xml = dco_1040ez\profiler.set.xml
+		dco_1040ez\taskname.xml = dco_1040ez\taskname.xml
+		dco_1040ez\upload.set.xml = dco_1040ez\upload.set.xml
+		dco_1040ez\verify.set.xml = dco_1040ez\verify.set.xml
+		dco_1040ez\vscan.set.xml = dco_1040ez\vscan.set.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rules", "rules", "{180174AC-4C84-4B12-87DB-55FC39039CF4}"
+	ProjectSection(SolutionItems) = preProject
+		dco_1040ez\rules\AddFingerprint.rul = dco_1040ez\rules\AddFingerprint.rul
+		dco_1040ez\rules\CheckForFixup.rul = dco_1040ez\rules\CheckForFixup.rul
+		dco_1040ez\rules\ChkConfidence.rul = dco_1040ez\rules\ChkConfidence.rul
+		dco_1040ez\rules\Clean.rul = dco_1040ez\rules\Clean.rul
+		dco_1040ez\rules\collection.xml = dco_1040ez\rules\collection.xml
+		dco_1040ez\rules\CreateDocs.rul = dco_1040ez\rules\CreateDocs.rul
+		dco_1040ez\rules\ExportDB.rul = dco_1040ez\rules\ExportDB.rul
+		dco_1040ez\rules\Identify.rul = dco_1040ez\rules\Identify.rul
+		dco_1040ez\rules\ImageFix.rul = dco_1040ez\rules\ImageFix.rul
+		dco_1040ez\rules\LookUp.rul = dco_1040ez\rules\LookUp.rul
+		dco_1040ez\rules\Recognize.rul = dco_1040ez\rules\Recognize.rul
+		dco_1040ez\rules\Validate.rul = dco_1040ez\rules\Validate.rul
+		dco_1040ez\rules\VScan.rul = dco_1040ez\rules\VScan.rul
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(JazzSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{180174AC-4C84-4B12-87DB-55FC39039CF4} = {DEBDFB0D-2471-48B9-850C-15A4115D08D1}
+	EndGlobalSection
+EndGlobal
